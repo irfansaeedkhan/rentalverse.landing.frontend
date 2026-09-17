@@ -110,7 +110,7 @@ function NextArrow({ className, style, onClick }: ArrowProps) {
       type="button"
       aria-label="Next team member"
       className={`${className ?? ""} nextArrow`}
-      style={style}
+      style={{ ...style, width: 48, height: 48 }}
       onClick={onClick}
     />
   );
@@ -122,7 +122,7 @@ function PrevArrow({ className, style, onClick }: ArrowProps) {
       type="button"
       aria-label="Previous team member"
       className={`${className ?? ""} prevArrow`}
-      style={style}
+      style={{ ...style, width: 48, height: 48 }}
       onClick={onClick}
     />
   );

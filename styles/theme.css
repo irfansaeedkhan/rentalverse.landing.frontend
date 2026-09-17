@@ -198,63 +198,52 @@ html {
     }
   }
 }
-/* gradient next and back — CSS arrows (no slick font / woff) */
+/* Team carousel arrows — 48×48 touch targets with ≥8px gap (a11y) */
 .slick-slider .slick-prev,
 .slick-slider .slick-next {
-  width: 44px !important;
-  height: 44px !important;
+  width: 48px !important;
+  height: 48px !important;
+  min-width: 48px;
+  min-height: 48px;
   padding: 0;
   display: flex !important;
   align-items: center;
   justify-content: center;
+  transform: none !important;
 }
 
 .slick-slider .slick-prev:before,
 .slick-slider .slick-next:before {
   font-family: inherit;
-  font-size: 30px;
-  line-height: 1;
-  opacity: 0.75;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  background: linear-gradient(90deg, #00ff94 0%, #00a3ff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  width: fit-content;
   content: "";
   display: block;
   width: 14px;
   height: 14px;
   border-top: 3px solid #00ff94;
   border-right: 3px solid #00a3ff;
-  background: none;
-  -webkit-text-fill-color: unset;
   opacity: 1;
 }
 
 .slick-slider .slick-prev:before {
-  margin-left: 0;
   transform: rotate(-135deg);
 }
 
 .slick-slider .slick-next:before {
-  margin-left: 0;
   transform: rotate(45deg);
 }
 
 .slick-prev {
   position: absolute;
   top: 105% !important;
-  right: 0% !important;
-  left: 45% !important;
+  right: auto !important;
+  left: calc(50% - 60px) !important;
   z-index: 20;
 }
 .slick-next {
   position: absolute;
   top: 105% !important;
-  right: 0% !important;
-  left: 50% !important;
+  right: auto !important;
+  left: calc(50% + 12px) !important;
   z-index: 20;
 }
 

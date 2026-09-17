@@ -1,0 +1,23 @@
+---
+description: Never push to GitHub until yarn build succeeds locally
+alwaysApply: true
+---
+
+# Never Push Before a Successful Build
+
+Before any `git push` (or creating a PR that will trigger deploy):
+
+1. Run `yarn build` and wait for it to finish with exit code 0.
+2. If the build fails, fix the errors and re-run `yarn build` until it passes.
+3. Only then commit (if needed) and push.
+
+Do not push “to see if Vercel builds” — local `yarn build` must pass first.
+
+```bash
+# ✅ Required order
+yarn build   # must succeed
+git push
+
+# ❌ Never
+git push     # without a successful local build
+```
