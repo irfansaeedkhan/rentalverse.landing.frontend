@@ -47,7 +47,11 @@ const GetStarted: React.FC = () => {
             </p>
           </div>
 
-          <Link href="/">
+          <Link
+            href="https://rentalverse-app.vercel.app/auth/login"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button
               variant="secondary"
               className="mt-5 md:mt-10 text-xs md:text-xl py-2 px-4 md:py-4 md:px-10"

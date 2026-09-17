@@ -56,8 +56,9 @@ const Header: React.FC = () => {
             Workspaces
           </h1>
           <Link
-            href="https://app.apexorder.xyz"
+            href="https://rentalverse-app.vercel.app/auth/login"
             target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-1"
           >
             <Button
