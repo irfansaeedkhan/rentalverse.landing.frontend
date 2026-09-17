@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
+  // Next 16.3 + Vercel adapter: standalone skips NFT files and breaks onBuildComplete.
+  // Keep standalone for Docker/self-host; Vercel sets VERCEL=1.
+  output: process.env.VERCEL ? undefined : "standalone",
   poweredByHeader: false,
   compress: true,
   images: {
