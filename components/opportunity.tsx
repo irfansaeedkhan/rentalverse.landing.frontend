@@ -9,7 +9,7 @@ const Opportunity: React.FC = () => {
           <div className="flex-1">
             <Image
               src="/assets/images/opportunity-1.webp"
-              alt="about image"
+              alt="Secure virtual meeting space illustration"
               width={468}
               height={376}
               className="w-full"
@@ -53,7 +53,7 @@ const Opportunity: React.FC = () => {
           <div className="flex-1">
             <Image
               src="/assets/images/opportunity-2.webp"
-              alt="about image"
+              alt="Visionaries joining RentalVerse illustration"
               width={468}
               height={376}
               className="w-full"

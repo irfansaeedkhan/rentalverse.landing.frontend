@@ -16,7 +16,7 @@ const Partnership: React.FC = () => {
           >
             <Image
               src="/assets/images/about-bg.webp"
-              alt="about image"
+              alt=""
               width={748}
               height={843}
               className="w-full h-full object-contain"
@@ -33,7 +33,7 @@ const Partnership: React.FC = () => {
                 <Image
                   key={index}
                   src={`/assets/images/partners/partner-${index + 1}.png`}
-                  alt="about image"
+                  alt={`Partner logo ${index + 1}`}
                   width={150}
                   height={128}
                   className="object-contain"

@@ -41,7 +41,7 @@ const About: React.FC = () => {
         >
           <Image
             src="/assets/images/about-bg.webp"
-            alt="about image"
+            alt=""
             width={748}
             height={843}
             className="mx-auto size-full object-contain sm:w-4/5"

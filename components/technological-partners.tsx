@@ -14,7 +14,7 @@ const TechnologicalPartners: React.FC = () => {
       >
         <Image
           src="/assets/images/how-it-works-elipse-1.webp"
-          alt="technology partner section img"
+          alt=""
           width={643}
           height={645}
           className="z-0 size-full object-contain"
@@ -26,7 +26,7 @@ const TechnologicalPartners: React.FC = () => {
       >
         <Image
           src="/assets/images/how-it-works-elipse-2.webp"
-          alt="technology partner section img"
+          alt=""
           width={645}
           height={645}
           className="z-0 size-full object-contain"
@@ -44,7 +44,7 @@ const TechnologicalPartners: React.FC = () => {
         <div className="flex w-full max-w-fit flex-col items-start gap-10 md:w-2/3">
           <Image
             src="/assets/images/numeris.png"
-            alt="numeris logo"
+            alt="Numeris company logo"
             width={232}
             height={128}
             className="z-1 mx-auto w-40 object-contain sm:w-60"
@@ -52,7 +52,7 @@ const TechnologicalPartners: React.FC = () => {
           <div className=" flex-2 card-gradient flex flex-col items-center justify-center gap-5 rounded-[6.25rem] p-8 pb-10 text-center text-sm text-white sm:max-w-[68ch] sm:p-10 sm:pb-16">
             <Image
               src="/assets/images/numeris.png"
-              alt="numeris logo"
+              alt="Numeris logo in partner card"
               width={232}
               height={128}
               className="z-1 mx-auto h-auto w-20 object-contain sm:w-32 sm:pt-5"
@@ -68,7 +68,7 @@ const TechnologicalPartners: React.FC = () => {
         <div className="hidden md:block md:w-1/3">
           <Image
             src="/assets/images/numeris-bg-2.webp"
-            alt="numeris bg"
+            alt="Numeris technology background"
             width={578}
             height={360}
             className="z-1 w-full object-contain"

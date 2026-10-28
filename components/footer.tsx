@@ -131,7 +131,7 @@ const Footer: React.FC = () => {
 
       <div className="flex w-full justify-center bg-gradient-pattern">
         <p className="h7 py-3 !font-kanit text-primary">
-          <span className="!font-serif">&copy;</span> RentalVerse 2024
+          <span className="!font-serif">&copy;</span> RentalVerse 2026
         </p>
       </div>
     </footer>

@@ -31,7 +31,7 @@ const GlobalReach: React.FC = () => {
           <div className="flex w-full items-center justify-between">
             <Image
               src="/assets/icons/globe-icon-1.png"
-              alt="how it works img"
+              alt="Total sales icon"
               width={48}
               height={48}
               className="shrink-0"
@@ -41,7 +41,7 @@ const GlobalReach: React.FC = () => {
               <div className="rounded-full border border-white px-2 py-px text-[8px] text-white">
                 <span>LIVE</span>
               </div>
-              <p className="h4 text-shadow-green font-kanit text-green">US$ 100,000</p>
+              <p className="h4 text-shadow-green font-kanit text-green">US$ 18,400</p>
             </div>
           </div>
           <div className="flex flex-col items-start gap-3 text-left">
@@ -56,7 +56,7 @@ const GlobalReach: React.FC = () => {
           <div className="flex w-full items-center justify-between">
             <Image
               src="/assets/icons/globe-icon-2.png"
-              alt="how it works img"
+              alt="Total rented hours icon"
               width={48}
               height={48}
               className="shrink-0"
@@ -66,7 +66,7 @@ const GlobalReach: React.FC = () => {
               <div className="rounded-full border border-white px-2 py-px text-[8px] text-white">
                 <span>LIVE</span>
               </div>
-              <p className="h4 text-shadow-green text-green">800,000 tRh</p>
+              <p className="h4 text-shadow-green text-green">1,280 tRh</p>
             </div>
           </div>
           <div className="flex flex-col items-start gap-3 text-left">
@@ -81,7 +81,7 @@ const GlobalReach: React.FC = () => {
           <div className="flex w-full items-center justify-between">
             <Image
               src="/assets/icons/globe-icon-3.png"
-              alt="how it works img"
+              alt="Green energy icon"
               width={48}
               height={48}
               className="shrink-0"

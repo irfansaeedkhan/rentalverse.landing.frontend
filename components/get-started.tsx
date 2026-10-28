@@ -18,7 +18,7 @@ const GetStarted: React.FC = () => {
           width={670}
           height={417}
           loading="lazy"
-          alt="Get started with RentalVerse"
+          alt="Get started with RentalVerse background"
           className="hidden sm:block w-[90%] mx-auto object-contain"
         />
         <Image
@@ -26,7 +26,7 @@ const GetStarted: React.FC = () => {
           width={320}
           height={611}
           loading="lazy"
-          alt="Get started with RentalVerse"
+          alt="Get started with RentalVerse background, mobile view"
           className="sm:hidden w-[90%] h-full mx-auto object-contain"
         />
         <div className="h-full absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-50 content text-white text-center w-full max-w-[75%] sm:max-w-[55ch] flex flex-col justify-center items-center">
@@ -48,7 +48,7 @@ const GetStarted: React.FC = () => {
           </div>
 
           <Link
-            href="https://rentalverse-app.vercel.app/auth/login"
+            href="https://rentalverse-app.vercel.app/auth/register"
             target="_blank"
             rel="noopener noreferrer"
           >

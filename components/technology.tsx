@@ -13,7 +13,7 @@ const Technology: React.FC = () => {
           >
             <Image
               src="/assets/images/about-bg.webp"
-              alt="about image"
+              alt=""
               width={748}
               height={843}
               className="size-full object-contain"
@@ -50,7 +50,7 @@ const Technology: React.FC = () => {
             <div className="grid-2  overflow-hidden rounded-3xl">
               <Image
                 src="/assets/images/tech-grid-1.webp"
-                alt="about image"
+                alt="RentalVerse technology showcase image 1"
                 width={455}
                 height={551}
                 className="size-full object-cover"
@@ -59,7 +59,7 @@ const Technology: React.FC = () => {
             <div className="grid-3  overflow-hidden rounded-3xl">
               <Image
                 src="/assets/images/tech-grid-2.webp"
-                alt="about image"
+                alt="RentalVerse technology showcase image 2"
                 width={265}
                 height={265}
                 className="size-full object-cover"
@@ -68,7 +68,7 @@ const Technology: React.FC = () => {
             <div className="grid-4  overflow-hidden rounded-3xl">
               <Image
                 src="/assets/images/tech-grid-3.webp"
-                alt="about image"
+                alt="RentalVerse technology showcase image 3"
                 width={358}
                 height={265}
                 className="size-full object-cover"
@@ -77,7 +77,7 @@ const Technology: React.FC = () => {
             <div className="grid-5  overflow-hidden rounded-3xl">
               <Image
                 src="/assets/images/tech-grid-5.webp"
-                alt="about image"
+                alt="RentalVerse technology showcase image 4"
                 width={265}
                 height={265}
                 className="size-full object-cover"
@@ -86,7 +86,7 @@ const Technology: React.FC = () => {
             <div className="grid-6  overflow-hidden rounded-3xl">
               <Image
                 src="/assets/images/tech-grid-4.webp"
-                alt="about image"
+                alt="RentalVerse technology showcase image 5"
                 width={360}
                 height={265}
                 className="size-full object-cover"

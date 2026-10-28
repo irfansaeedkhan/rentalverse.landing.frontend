@@ -65,7 +65,7 @@ const Header: React.FC = () => {
               variant="secondary"
               className="mt-5 px-4 py-2 text-xs md:mt-10 md:px-6 md:py-4 md:text-xl"
             >
-              Discover Apex Dashboard
+              Open Dashboard Login
             </Button>
           </Link>
         </div>

@@ -136,7 +136,7 @@ const ContactUs: React.FC = () => {
                     <span className="material-symbols-outlined absolute left-4 transition-all duration-200 ease-in-out group-focus-within:text-primary">
                       <Image
                         src="/assets/icons/profile.svg"
-                        alt="about image"
+                        alt=""
                         width={24}
                         height={24}
                         className="object-contain"
@@ -158,7 +158,7 @@ const ContactUs: React.FC = () => {
                     <span className="material-symbols-outlined absolute left-4 transition-all duration-200 ease-in-out group-focus-within:text-primary">
                       <Image
                         src="/assets/icons/email.svg"
-                        alt="about image"
+                        alt=""
                         width={24}
                         height={24}
                         className="object-contain"
@@ -180,7 +180,7 @@ const ContactUs: React.FC = () => {
                     <span className="material-symbols-outlined absolute left-4 transition-all duration-200 ease-in-out group-focus-within:text-primary">
                       <Image
                         src="/assets/icons/phone.svg"
-                        alt="about image"
+                        alt=""
                         width={24}
                         height={24}
                         className="object-contain"
@@ -202,7 +202,7 @@ const ContactUs: React.FC = () => {
                     <span className="material-symbols-outlined absolute left-4 transition-all duration-200 ease-in-out group-focus-within:text-primary">
                       <Image
                         src="/assets/icons/comment.svg"
-                        alt="about image"
+                        alt=""
                         width={24}
                         height={24}
                         className="object-contain"

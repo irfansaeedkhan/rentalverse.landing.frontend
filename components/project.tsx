@@ -9,7 +9,7 @@ const Project: React.FC = () => {
         <div className="absolute right-0 top-1/2 z-0 hidden w-[50vw] translate-y-[-50%] sm:block">
           <Image
             src="/assets/images/project-man-desktop.png"
-            alt="about image"
+            alt="Professional working in a virtual office, desktop view"
             width={468}
             height={376}
             className="size-full object-contain"
@@ -46,7 +46,7 @@ const Project: React.FC = () => {
           </div>
           <Image
             src="/assets/images/project-man-mobile.png"
-            alt="about image"
+            alt="Professional working in a virtual office, mobile view"
             width={468}
             height={376}
             className="size-full object-contain sm:hidden"
